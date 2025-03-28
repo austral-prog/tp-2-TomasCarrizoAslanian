@@ -1,9 +1,9 @@
 def earth():
     x = "Bangladesh"
-y = "Barbados"
+    y = "Barbados"
 
-resultado1 = x < y
-resultado2 = y < x
+    resultado1 = x < y
+    resultado2 = y < x
 
-print("The result of X comes first in the dictionary than Y is " + str(resultado1) + ".")
-print("The result of X comes first in the dictionary than Y is " + str(resultado2) + ".")
+    print(f"The result of Bangladesh comes first in the dictionary than Barbados is {resultado1}.")
+    print(f"The result of Barbados comes first in the dictionary than Bangladesh is {resultado2}.")
